@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Post"
+    "name": "Post",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -23,9 +24,39 @@
       "type": "text",
       "required": true
     },
-    "PublishedAt": {
+    "Date": {
       "type": "date",
       "required": true
+    },
+    "CoverImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "RelatedPosts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "posts.related-posts"
+    },
+    "Links": {
+      "type": "dynamiczone",
+      "components": [
+        "links.git-hub-repository",
+        "links.website",
+        "links.download",
+        "links.npm",
+        "links.nu-get"
+      ]
+    },
+    "Tags": {
+      "collection": "tags",
+      "via": "posts",
+      "dominant": true
     }
   }
 }

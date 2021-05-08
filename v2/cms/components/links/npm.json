@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_links_npms",
+  "info": {
+    "name": "NPM",
+    "icon": "laptop-code"
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_links_git_hub_repositories",
+  "info": {
+    "name": "GitHub Repository",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

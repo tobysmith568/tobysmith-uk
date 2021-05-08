@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_links_downloads",
+  "info": {
+    "name": "Download",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "URL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

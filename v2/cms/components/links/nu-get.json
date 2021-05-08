@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_links_nu_gets",
+  "info": {
+    "name": "NuGet",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string"
+    }
+  }
+}

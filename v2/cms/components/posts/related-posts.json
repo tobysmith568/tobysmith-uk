@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_posts_related_posts",
+  "info": {
+    "name": "related_posts",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "posts": {
+      "collection": "post"
+    }
+  }
+}

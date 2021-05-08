@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_links_websites",
+  "info": {
+    "name": "Website",
+    "icon": "external-link-alt"
+  },
+  "options": {},
+  "attributes": {
+    "URL": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
