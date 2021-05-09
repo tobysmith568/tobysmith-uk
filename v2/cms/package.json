@@ -11,6 +11,9 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "ckeditor5-custom-build": "file:../ckeditor5",
     "knex": "0.21.18",
     "sqlite3": "5.0.0",
     "strapi": "3.6.1",

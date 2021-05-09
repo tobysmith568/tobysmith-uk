@@ -14,7 +14,8 @@
   "attributes": {
     "Body": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "default": "Post Content"
     },
     "Title": {
       "type": "string",
@@ -27,16 +28,6 @@
     "Date": {
       "type": "date",
       "required": true
-    },
-    "CoverImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
     },
     "RelatedPosts": {
       "type": "component",

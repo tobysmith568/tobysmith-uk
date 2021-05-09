@@ -5,6 +5,9 @@
     },
     {
       "path": "cms"
+    },
+    {
+      "path": "ckeditor5"
     }
   ],
   "settings": {}
